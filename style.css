@@ -1,0 +1,46 @@
+
+html, body{
+ width: 100%;
+ height: 100%;
+}
+/**
+body{
+  background-image: url(one.jpg);
+  background-size: cover;
+}
+**/
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+body {
+  background: url(two.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+hr {
+  margin-top: 150px;
+  margin-bottom: 15px;
+  border-width: 2px;
+  border-color: orange;
+  max-width: 40px;
+}
+
+header.text-center.first{
+  height: 100%;
+}
+
+.btn.btn-outline-primary.btn-lg {
+  background-color: orange;
+  border: 2px solid orange;
+  color: white;
+  border-radius: 25px;
+}
+
+.btn.btn-outline-primary.btn-lg:hover {
+  color: #333333;
+
+  background-color: gray;
+}
